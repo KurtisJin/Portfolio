@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Perfolio</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- I have made wrapper the parent of the entire nav section -->
+    <nav id = "wrapper" class="wrapper"> 
+        <div class="max-width">
+            <div class="logo"> 
+                <a href="#about-me">Kurtis Jin</a>
+            </div>   
+            <nav class ="menu-bar">
+                <li><a href= "#">Home</a></li>
+                <li><a href= "#about-me">About Me</a></li>
+                <li><a href= "#skills-content">Skills</a>
+                    <!--this is where I made drop down box for the skills content-->
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </li>        
+                <li><a href="#projects-content">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                
+            </nav>
+        </div>
+    </nav>
+<main>
+    <!--Main content-->
+    <section id="main-content" class="main-content">
+        <div class="max-width">
+            <div class="mainpage-content">
+                <div class="text1">Hello, my name is</div>
+                <div class="text2">Kurtis Jin</div>
+                <!--inserted span on word "Programmer" to style it later-->
+                <div class="text3">I am a <span>programmer</span></div>
+                <div id="hire-me-button" class="hire-me-button">
+                    <!--the hire me button will take you to my website. For requirement purposes for homework-->
+                    <a href="https://www.kurtisjin.com">Hire Me!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section-->
+    <section id="about-me" class="aboutme">
+        <div class="max-width">
+            <h2 class="aboutMe-title">About Me</h2>
+            <div class="aboutme-content">
+                <div class="left-column">
+                    <img src="Assets/pictures/JPG_1613107371914.jpg" alt="cartoon picture of an asian male smiling"/>
+                </div>
+                <div class="right-column">
+                    <div class="about-me-text">I am a <span>programmer</span></div>
+                        <p>I am a programmer who is sufficent in programming</p>
+                        <a href="#">Download CV</a>   
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Skills section-->
+    <section id="skills-content" class="skills-content">
+        <div class="max-width">
+            <h2 class="skills">My Skills</h2>
+            <div class="only-the-bars">
+                <!--I was going to group the abbr's together but realized I can't target one by one. Made adjustments and 
+                made them invidual being the child of class skills-containerr. -->
+                <div class="skills-container">
+                    <h3>HTML/HTML5<abbr class="one">60%</abbr></h3>               
+                    <span class="one"></span>
+                </div>
+                <div class="skills-container">
+                    <h3>CSS/CSS3<abbr class="two">60%</abbr></h3>               
+                    <span class="two"></span>
+                </div>
+                <div class="skills-container">
+                    <h3>JQUERY/JavaScript<abbr class="three">60%</abbr></h3>              
+                    <span class="three"></span>
+                </div>
+            </div>
+            <div class="hire-me-button">Hire Me!</div>         
+        </div>        
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects-content" class="projects-content">
+        <div class="max-width">
+            <h2 class="projects-title">Projects</h2>
+            <div class="projects-container">
+                <div class="right-column">
+                    <div class="about-me-text">Please review my <span>projects</span></div>
+                        <p>This site was built for response active. Please review the site as well for one of the projects completed. </p>
+                        <a href="#">Download CV</a> 
+                </div>
+                <div class="left-column">
+                    <nav id = "projects-links" class="projects-links">
+                        <!-- <section id="project-one" class="project-one"></section> -->
+                            <a class="project1" href="https://cloudnine2121.github.io/Homework1/">
+                                <img src="Assets/pictures/JPG_1613107371914.jpg"  alt="cartoon picture of an asian male smiling "/>
+                            </a>
+                        <!-- </section>
+                        <section id="project-two" class="project-two"> -->
+                            <a class="project2" href="https://cloudnine2121.github.io/Homework1/">
+                            <img src="Assets/pictures/JPG_1613107371914.jpg"  alt="cartoon picture of an asian male smiling"/>
+                            </a>
+                        <!-- </section>
+                        <section id="project-three" class="project-three"> -->
+                            <a class="project3" href="https://cloudnine2121.github.io/Homework1/">
+                                <img src="Assets/pictures/JPG_1613107371914.jpg"  alt="cartoon picture of an asian male smiling"/>
+                            </a>
+                        <!-- </section>
+                        <section id="project-four" class="project-four"></section> -->
+                            <a class="project4" href="https://cloudnine2121.github.io/Homework1/">
+                                <img src="Assets/pictures/JPG_1613107371914.jpg"  alt="cartoon picture of an asian male smiling"/>
+                            </a>
+                        <!-- </section>     -->
+                    </nav>  
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>
