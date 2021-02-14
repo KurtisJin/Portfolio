@@ -2,9 +2,6 @@
 
 ### Hello, My name is Kurtis. 👋
 
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ... Becoming a knowledgeable programmer
 - 🌱 I’m currently learning ... Building application with javaScipt
 - 👯 I’m looking to collaborate on ... javaScript
