@@ -163,7 +163,7 @@ section .title::after{
 
 
 /* homePage section styling */
-.homePage{
+.homePage {
     display: flex;
     background: url("../images/landing-page-background.jpg") no-repeat center;
     height: 100vh;
@@ -175,32 +175,30 @@ section .title::after{
 
 }
 
-
-
-.homePage .max-width{
+.homePage .max-width {
   width: 100%;
   display: flex;
 }
-.homePage .max-width .row{
+.homePage .max-width .row {
   margin-right: 0;
 }
-.homePage .homePage-content .text-1{
+.homePage .homePage-content .text-1 {
     font-size: 27px;
 }
-.homePage .homePage-content .text-2{
+.homePage .homePage-content .text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
-.homePage .homePage-content .text-3{
+.homePage .homePage-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
-.homePage .homePage-content .text-3 span{
+.homePage .homePage-content .text-3 span {
     color: crimson;
     font-weight: 500;
 }
-.homePage .homePage-content a{
+.homePage .homePage-content a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -212,19 +210,20 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.homePage .homePage-content a:hover{
+.homePage .homePage-content a:hover {
     color: crimson;
     background: none;
+    box-shadow: 0px 0px 10px 10px #0ff;
 }
 
 /* about section styling */
 .about .title::after{
     content: "who i am";
 }
-.about .about-content .left{
+.about .about-content .left {
     width: 45%;
 }
-.about .about-content .left img{
+.about .about-content .left img {
     height: 400px;
     width: 400px;
     object-fit: cover;
@@ -233,18 +232,18 @@ section .title::after{
 .about .about-content .right{
     width: 55%;
 }
-.about .about-content .right .text{
+.about .about-content .right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .right .text span{
+.about .about-content .right .text span {
     color: crimson;
 }
-.about .about-content .right p{
+.about .about-content .right p {
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -256,7 +255,7 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
+.about .about-content .right a:hover {
     color: crimson;
     background: none;
 }
@@ -267,15 +266,15 @@ section .title::after{
     background: #111;
 }
 .services .title::before,
-.projects .title::before{
+.projects .title::before {
     background: #fff;
 }
 .services .title::after,
-.projects .title::after{
+.projects .title::after {
     background: #111;
     content: "what i provide";
 }
-.services .serv-content .card{
+.services .serv-content .card {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -284,24 +283,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.services .serv-content .card:hover {
     background: crimson;
 }
-.services .serv-content .card .box{
+.services .serv-content .card .box {
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.services .serv-content .card:hover .box {
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.services .serv-content .card i {
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.services .serv-content .card:hover i {
     color: #fff;
 }
-.services .serv-content .card .text{
+.services .serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -312,18 +311,18 @@ section .title::after{
 .skills .title::after{
     content: "what i know";
 }
-.skills .skills-content .column{
+.skills .skills-content .column {
     width: calc(50% - 30px);
 }
-.skills .skills-content .left .text{
+.skills .skills-content .left .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+.skills .skills-content .left p {
     text-align: justify;
 }
-.skills .skills-content .left a{
+.skills .skills-content .left a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -335,30 +334,30 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.skills .skills-content .left a:hover {
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
+.skills .skills-content .right .bars {
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.skills .skills-content .right .info {
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+.skills .skills-content .right span {
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
+.skills .skills-content .right .line {
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .right .line::before{
+.skills .skills-content .right .line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -377,10 +376,10 @@ section .title::after{
         /* background-color: linear-gradient(to left, yellow); */
     }
 }
-.skills-content .right .html::before{
+.skills-content .right .html::before {
     width: 80%;
 }
-.skills-content .right .css::before{
+.skills-content .right .css::before {
     width: 60%;
 }
 .skills-content .right .js::before {
@@ -391,7 +390,7 @@ section .title::after{
 .projects .title::after {
     content: "I have worked on";
 }
-.projects .carousel .card{
+.projects .carousel .card {
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -399,25 +398,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover{
+.projects .carousel .card:hover {
     background: crimson;
 }
-.projects .carousel .card .box{
+.projects .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover .box{
+.projects .carousel .card:hover .box {
     transform: scale(1.05);
 }
-.projects .carousel .card .text{
+.projects .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.projects .carousel .card img{
+.projects .carousel .card img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -464,21 +463,21 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
-.contact .contact-content .column{
+.contact .contact-content .column {
     width: calc(50% - 30px);
 }
-.contact .contact-content .text{
+.contact .contact-content .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.contact .contact-content .left p{
+.contact .contact-content .left p {
     text-align: justify;
 }
-.contact .contact-content .left .icons{
+.contact .contact-content .left .icons {
     margin: 10px 0;
 }
-.contact .contact-content .row{
+.contact .contact-content .row {
     display: flex;
     height: 65px;
     align-items: center;
@@ -500,12 +499,12 @@ section .title::after{
     display: flex;
 }
 .contact .right form .field,
-.contact .right form .fields .field{
+.contact .right form .fields .field {
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 }
-.contact .right form .textarea{
+.contact .right form .textarea {
     height: 80px;
     width: 100%;
 }
@@ -562,12 +561,13 @@ footer{
     /* color: #fff; */
     text-align: center;
 }
-footer span a{
+footer .row a{
     color: crimson;
     text-decoration: none;
 }
-footer span a:hover{
+footer .row a:hover{
     text-decoration: underline;
+    box-shadow: 10px 30px 60px 30px #0ff;
 }
 
 .linkedin {
