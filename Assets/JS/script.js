@@ -35,7 +35,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
+    // typing text animation script from typed.js
     var typed = new Typed(".auto-type", {
         strings: ["Developer", "Designer", "Project Manager", "Dev Ops"],
         typeSpeed: 100,
@@ -50,7 +50,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    // owl carousel script
+    // owl carousel script from owl.carousel.min.js
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
