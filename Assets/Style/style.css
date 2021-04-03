@@ -104,6 +104,11 @@ section .title::after{
     color: crimson;
     transition: all 0.3s ease;
 }
+
+.navbar .logo a span:hover {
+    color: blue
+}
+
 .navbar.sticky .logo a span{
     color: #fff;
 }
@@ -190,6 +195,15 @@ section .title::after{
     font-weight: 600;
     margin-left: -3px;
 }
+
+
+.homePage .homePage-content .text-2 .last-name:hover {
+    color: crimson;
+    text-shadow: 2px 2px white;
+}
+
+
+
 .homePage .homePage-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
