@@ -255,7 +255,7 @@ section .title::after{
     color: crimson;
 }
 .about .about-content .right p {
-    text-align: justify;
+    text-align:inherit;
 }
 .about .about-content .right a {
     display: inline-block;
